@@ -181,10 +181,10 @@ padding:120px 0;
 }
 
 .title-area span,
-.review-left span,
-.showroom-content span,
+.review-left > span,
+.showroom-content > span,
 .notice-head span,
-.contact-inner span{
+.contact-inner > span{
 display:block;
 font-size:13px;
 letter-spacing:3px;
@@ -393,17 +393,18 @@ color:#5e5345;
 .review-btn{
 display:inline-flex;
 align-items:center;
-justify-content:space-between;
-gap:55px;
-padding:15px 24px;
+gap:40px;
+padding:16px 28px;
 border:1px solid #6f5b46;
 border-radius:4px;
 color:#3d2f23;
 font-size:15px;
+line-height:1;
 }
 
 .review-btn i{
 font-style:normal;
+font-size:16px;
 }
 
 /* bottom pagination bar */
